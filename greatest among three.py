@@ -1,0 +1,9 @@
+w=int(input())
+x=int(input())
+y=int(input())
+if((w>x)and(w>y)):
+              print(w)
+elif((x>y)and(x>w)):
+              print(x)
+else:
+              print(y)
